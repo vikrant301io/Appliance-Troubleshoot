@@ -1,0 +1,102 @@
+{
+  "problems": [
+    {
+      "id": "fridge_light_out",
+      "title": "Refrigerator light not working",
+      "keywords": ["light", "bulb", "dark", "fridge light", "refrigerator light"],
+      "category": "SIMPLE",
+      "troubleshooting_steps": [
+        "Unplug the refrigerator from the power outlet for safety.",
+        "Open the refrigerator door and locate the light bulb cover (usually a small plastic or glass cover near the top).",
+        "Gently twist or remove the cover to access the bulb.",
+        "Check if the bulb is loose. If so, tighten it.",
+        "If the bulb appears burned out (darkened or broken filament), replace it with a compatible bulb.",
+        "Reinstall the cover and plug the refrigerator back in.",
+        "Test the light by opening and closing the door."
+      ],
+      "parts": [
+        {
+          "name": "Refrigerator Door Bulb",
+          "part_number": "LB-1234-FR",
+          "price": 8.99
+        }
+      ]
+    },
+    {
+      "id": "fridge_not_cooling",
+      "title": "Refrigerator not cooling properly",
+      "keywords": ["not cooling", "warm", "temperature", "cooling", "fridge warm"],
+      "category": "COMPLEX",
+      "troubleshooting_steps": [
+        "Check if the refrigerator is plugged in and the power is on.",
+        "Verify the temperature settings are correct (usually 37-40°F for fridge, 0°F for freezer).",
+        "Check if the door seals are clean and closing properly.",
+        "Ensure the refrigerator is not overloaded and air can circulate.",
+        "Check if the condenser coils (usually at the back or bottom) are dirty and need cleaning."
+      ],
+      "parts": []
+    },
+    {
+      "id": "washer_not_spinning",
+      "title": "Washing machine not spinning",
+      "keywords": ["not spinning", "spin", "washing machine", "washer"],
+      "category": "COMPLEX",
+      "troubleshooting_steps": [
+        "Check if the load is unbalanced. Redistribute clothes evenly.",
+        "Ensure the machine is level on the floor.",
+        "Check if the lid/door is properly closed (some machines won't spin if open).",
+        "Verify the drain hose is not kinked or blocked.",
+        "Check for error codes on the display panel."
+      ],
+      "parts": []
+    },
+    {
+      "id": "dishwasher_not_draining",
+      "title": "Dishwasher not draining",
+      "keywords": ["not draining", "drain", "water", "dishwasher"],
+      "category": "SIMPLE",
+      "troubleshooting_steps": [
+        "Check if the drain hose is kinked or blocked.",
+        "Remove any large food particles from the bottom of the dishwasher.",
+        "Clean the filter (usually at the bottom) if accessible.",
+        "Check the garbage disposal connection (if connected) - ensure the knockout plug is removed.",
+        "Run a drain cycle to see if water clears."
+      ],
+      "parts": [
+        {
+          "name": "Dishwasher Filter",
+          "part_number": "DF-5678-DW",
+          "price": 24.99
+        }
+      ]
+    },
+    {
+      "id": "oven_not_heating",
+      "title": "Oven not heating",
+      "keywords": ["not heating", "oven", "heating", "temperature"],
+      "category": "COMPLEX",
+      "troubleshooting_steps": [
+        "Check if the oven is properly plugged in or the circuit breaker is on.",
+        "Verify the temperature setting is correct.",
+        "Check if the oven door is fully closed.",
+        "For gas ovens, ensure the gas supply is on and the pilot light is lit."
+      ],
+      "parts": []
+    }
+  ],
+  "dangerous_keywords": [
+    "burning smell",
+    "smoke",
+    "sparks",
+    "gas",
+    "gas leak",
+    "water leak under pressure",
+    "electrical",
+    "shock",
+    "fire",
+    "burning",
+    "sparking"
+  ],
+  "technician_fee": 125.0
+}
+

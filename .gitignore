@@ -1,0 +1,323 @@
+# ============================================
+# Python
+# ============================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+*.whl
+
+# ============================================
+# Virtual Environments
+# ============================================
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# ============================================
+# Environment Variables & Secrets
+# ============================================
+.env
+.env.local
+.env.*.local
+.env.backup
+*.env
+
+# ============================================
+# IDE & Editor Files
+# ============================================
+# VS Code
+.vscode/
+*.code-workspace
+
+# PyCharm / JetBrains
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+.*.swp
+.*.swo
+
+# Emacs
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# Eclipse
+.project
+.pydevproject
+.settings/
+
+# ============================================
+# Operating System Files
+# ============================================
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+.AppleDouble
+.LSOverride
+Icon
+.DocumentRevisions-V100
+.fseventsd
+.TemporaryItems
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.stackdump
+
+# Linux
+.directory
+.Trash-*
+.nfs*
+
+# ============================================
+# Streamlit Specific
+# ============================================
+.streamlit/secrets.toml
+.streamlit/cache/
+streamlit_output.txt
+*.streamlit_cache
+
+# ============================================
+# Application Data (Generated at Runtime)
+# ============================================
+data/bookings.json
+order_history.json
+*_history.json
+
+# ============================================
+# Temporary & Upload Files
+# ============================================
+*.tmp
+*.temp
+*.bak
+*.backup
+*_backup.*
+*_old.*
+.cache/
+.tmp/
+uploads/
+temp_images/
+*.upload
+.session_state/
+*.session
+
+# ============================================
+# Logs
+# ============================================
+*.log
+*.log.*
+logs/
+
+# ============================================
+# Testing & Coverage
+# ============================================
+.pytest_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# ============================================
+# Type Checking & Linting
+# ============================================
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pytype/
+.pyre/
+
+# ============================================
+# Jupyter Notebooks
+# ============================================
+.ipynb_checkpoints
+*.ipynb
+
+# IPython
+profile_default/
+ipython_config.py
+
+# ============================================
+# Documentation Builds
+# ============================================
+docs/_build/
+/site
+
+# ============================================
+# Deployment & Infrastructure
+# ============================================
+# AWS
+.aws/
+*.pem
+*.key
+*.p12
+*.crt
+ecs/
+
+# Docker
+.docker/
+docker-compose.override.yml
+
+# ============================================
+# Compiled & Binary Files
+# ============================================
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.dylib
+
+# ============================================
+# Archives
+# ============================================
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.tar.gz
+*.zip
+
+# ============================================
+# Database Files
+# ============================================
+*.db
+*.sqlite
+*.sqlite3
+
+# ============================================
+# Python Profiling
+# ============================================
+*.prof
+*.lprof
+
+# ============================================
+# Package Managers
+# ============================================
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# PEP 582
+__pypackages__/
+
+# ============================================
+# Task Runners
+# ============================================
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# ============================================
+# Other Build Tools
+# ============================================
+# SageMath
+*.sage.py
+
+# PyBuilder
+target/
+
+# ============================================
+# Cython
+# ============================================
+cython_debug/
+
+# ============================================
+# Project Specific - Temporary Docs
+# ============================================
+# These are temporary documentation files that shouldn't be committed
+CLEANUP_SUMMARY.md
+IMPLEMENTATION_COMPLETE.md
+QUICK_START_DEPLOY.md
+DEPLOYMENT.md
+
+# ============================================
+# Translations
+# ============================================
+*.mo
+*.pot
+
+# ============================================
+# Framework Specific (if added later)
+# ============================================
+# Django
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask
+instance/
+.webassets-cache
+
+# Scrapy
+.scrapy

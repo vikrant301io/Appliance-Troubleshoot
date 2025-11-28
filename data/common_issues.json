@@ -1,0 +1,111 @@
+{
+  "Refrigerator": [
+    "Not cooling properly",
+    "Making unusual noises",
+    "Water leakage",
+    "Ice maker not working",
+    "Light not turning on",
+    "Door not sealing properly",
+    "Freezer not freezing",
+    "Temperature fluctuations",
+    "Compressor issues",
+    "Display panel not working"
+  ],
+  "Freezer": [
+    "Not freezing",
+    "Excessive frost buildup",
+    "Temperature too high",
+    "Door not closing properly",
+    "Making loud noises",
+    "Not maintaining temperature",
+    "Ice buildup issues",
+    "Compressor running constantly",
+    "Water leakage",
+    "Display not working"
+  ],
+  "Washing Machine": [
+    "Not spinning",
+    "Not draining",
+    "Not filling with water",
+    "Making loud noises",
+    "Vibrating excessively",
+    "Door not locking",
+    "Error codes appearing",
+    "Clothes not getting clean",
+    "Water leakage",
+    "Control panel not responding"
+  ],
+  "Dishwasher": [
+    "Not cleaning dishes properly",
+    "Not draining",
+    "Not filling with water",
+    "Making loud noises",
+    "Door not closing",
+    "Dishes not drying",
+    "Error codes",
+    "Water leakage",
+    "Detergent not dispensing",
+    "Control panel issues"
+  ],
+  "TV": [
+    "No picture/black screen",
+    "No sound",
+    "Remote not working",
+    "Screen flickering",
+    "Poor picture quality",
+    "Not turning on",
+    "HDMI ports not working",
+    "WiFi connectivity issues",
+    "Apps not loading",
+    "Screen has lines or spots"
+  ],
+  "Microwave": [
+    "Not heating",
+    "Not turning on",
+    "Turntable not rotating",
+    "Making loud noises",
+    "Door not closing properly",
+    "Control panel not working",
+    "Sparks inside",
+    "Food not cooking evenly",
+    "Display not showing",
+    "Button not responding"
+  ],
+  "Oven": [
+    "Not heating",
+    "Temperature inaccurate",
+    "Not turning on",
+    "Door not closing",
+    "Control panel not working",
+    "Uneven cooking",
+    "Gas smell",
+    "Broiler not working",
+    "Self-cleaning not working",
+    "Display issues"
+  ],
+  "Air Conditioner": [
+    "Not cooling",
+    "Not turning on",
+    "Making loud noises",
+    "Water leakage",
+    "Not maintaining temperature",
+    "Remote not working",
+    "Filter issues",
+    "Compressor problems",
+    "Airflow problems",
+    "Display not working"
+  ],
+  "Dryer": [
+    "Not heating",
+    "Not drying clothes",
+    "Not turning on",
+    "Making loud noises",
+    "Not spinning",
+    "Door not closing",
+    "Lint buildup",
+    "Timer not working",
+    "Error codes",
+    "Control panel issues"
+  ]
+}
+

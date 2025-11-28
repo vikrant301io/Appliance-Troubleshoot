@@ -1,0 +1,34 @@
+version: '3.8'
+
+services:
+  appliance-assistant:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: appliance-troubleshoot-assistant
+    ports:
+      - "8501:8501"
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - USE_OPENAI_OCR=true
+      - STREAMLIT_SERVER_PORT=8501
+      - STREAMLIT_SERVER_ADDRESS=0.0.0.0
+    volumes:
+      # Mount data directory for persistence
+      - ./data:/app/data
+      # Mount assets if needed
+      - ./assets:/app/assets:ro
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8501/_stcore/health')"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+    networks:
+      - appliance-network
+
+networks:
+  appliance-network:
+    driver: bridge
+

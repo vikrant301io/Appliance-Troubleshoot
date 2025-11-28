@@ -1,0 +1,76 @@
+[
+  {
+    "id": "tech_001",
+    "name": "John Smith",
+    "specialization": ["Refrigerator", "Freezer", "Air Conditioner"],
+    "rating": 4.8,
+    "experience_years": 12,
+    "base_fee": 125.00,
+    "availability": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+    "time_slots": [
+      {"day": "Monday", "slots": ["09:00-12:00", "14:00-17:00"]},
+      {"day": "Tuesday", "slots": ["09:00-12:00", "14:00-17:00"]},
+      {"day": "Wednesday", "slots": ["09:00-12:00", "14:00-17:00"]},
+      {"day": "Thursday", "slots": ["09:00-12:00", "14:00-17:00"]},
+      {"day": "Friday", "slots": ["09:00-12:00", "14:00-17:00"]}
+    ],
+    "location": "Downtown Area",
+    "response_time": "Within 24 hours"
+  },
+  {
+    "id": "tech_002",
+    "name": "Sarah Johnson",
+    "specialization": ["Washing Machine", "Dishwasher", "Dryer"],
+    "rating": 4.9,
+    "experience_years": 8,
+    "base_fee": 120.00,
+    "availability": ["Monday", "Tuesday", "Wednesday", "Thursday", "Saturday"],
+    "time_slots": [
+      {"day": "Monday", "slots": ["10:00-13:00", "15:00-18:00"]},
+      {"day": "Tuesday", "slots": ["10:00-13:00", "15:00-18:00"]},
+      {"day": "Wednesday", "slots": ["10:00-13:00", "15:00-18:00"]},
+      {"day": "Thursday", "slots": ["10:00-13:00", "15:00-18:00"]},
+      {"day": "Saturday", "slots": ["09:00-12:00", "13:00-16:00"]}
+    ],
+    "location": "Suburban Area",
+    "response_time": "Within 24 hours"
+  },
+  {
+    "id": "tech_003",
+    "name": "Mike Williams",
+    "specialization": ["TV", "Microwave", "Oven", "Stove"],
+    "rating": 4.7,
+    "experience_years": 15,
+    "base_fee": 130.00,
+    "availability": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+    "time_slots": [
+      {"day": "Monday", "slots": ["08:00-11:00", "13:00-16:00"]},
+      {"day": "Tuesday", "slots": ["08:00-11:00", "13:00-16:00"]},
+      {"day": "Wednesday", "slots": ["08:00-11:00", "13:00-16:00"]},
+      {"day": "Thursday", "slots": ["08:00-11:00", "13:00-16:00"]},
+      {"day": "Friday", "slots": ["08:00-11:00", "13:00-16:00"]},
+      {"day": "Saturday", "slots": ["10:00-13:00", "14:00-17:00"]}
+    ],
+    "location": "City Wide",
+    "response_time": "Same day available"
+  },
+  {
+    "id": "tech_004",
+    "name": "Emily Davis",
+    "specialization": ["All Appliances"],
+    "rating": 5.0,
+    "experience_years": 10,
+    "base_fee": 140.00,
+    "availability": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+    "time_slots": [
+      {"day": "Monday", "slots": ["09:00-12:00", "14:00-17:00"]},
+      {"day": "Tuesday", "slots": ["09:00-12:00", "14:00-17:00"]},
+      {"day": "Wednesday", "slots": ["09:00-12:00", "14:00-17:00"]},
+      {"day": "Thursday", "slots": ["09:00-12:00", "14:00-17:00"]},
+      {"day": "Friday", "slots": ["09:00-12:00", "14:00-17:00"]}
+    ],
+    "location": "Premium Service Area",
+    "response_time": "Same day available"
+  }
+]
+
