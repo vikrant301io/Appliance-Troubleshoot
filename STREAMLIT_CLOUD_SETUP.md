@@ -16,7 +16,7 @@ git push origin main
 3. Fill in:
    - **Repository**: Your GitHub repo
    - **Branch**: `main`
-   - **Main file path**: `app/main.py`
+   - **Main file path**: `streamlit_app.py` (recommended) or `app/main.py`
 4. Click **"Deploy"**
 
 ### 3. Add Secrets (CRITICAL!)
@@ -35,7 +35,7 @@ OPENAI_API_KEY = "your-actual-openai-api-key"
 
 ## 📝 Important Notes
 
-- ✅ Your app entry point: `app/main.py`
+- ✅ Your app entry point: `streamlit_app.py` (or `app/main.py`)
 - ✅ Make sure all image folders are committed to Git
 - ✅ Never commit `.env` file (it's in `.gitignore`)
 - ✅ All dependencies are in `requirements.txt`

@@ -45,7 +45,7 @@
 3. **Configure Your App:**
    - **Repository**: Select your GitHub repository from the dropdown
    - **Branch**: Select `main` (or your main branch name)
-   - **Main file path**: Type `app/main.py`
+   - **Main file path**: Type `streamlit_app.py` (or `app/main.py` if you prefer)
    - **App URL**: (Optional) Choose a custom URL or use the default
    
 4. **Click "Deploy"**

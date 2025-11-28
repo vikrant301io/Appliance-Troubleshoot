@@ -33,6 +33,7 @@ This guide will help you deploy your Appliance Troubleshoot Assistant app to Str
 ### 1.2 Ensure Required Files Are Present
 
 Your repository should have:
+- ✅ `streamlit_app.py` - Main entry point for Streamlit Cloud (recommended)
 - ✅ `app/main.py` - Main application file
 - ✅ `requirements.txt` - Python dependencies
 - ✅ `.streamlit/config.toml` - Streamlit configuration
@@ -48,7 +49,7 @@ Your repository should have:
 4. Fill in the deployment form:
    - **Repository**: Select your repository
    - **Branch**: Select `main` (or your main branch)
-   - **Main file path**: Enter `app/main.py`
+   - **Main file path**: Enter `streamlit_app.py` (recommended) or `app/main.py`
    - **App URL** (optional): Customize if desired
    - Click **"Deploy!"**
 
